@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cadastrar - Orbia</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Orbia</h1>
+
+<p>
+Cadastro de Conteúdos Educacionais
+</p>
+
+</header>
+
+
+
+<nav>
+
+<button onclick="window.location.href='../index.html'">
+Dashboard
+</button>
+
+<button>
+Cadastrar
+</button>
+
+<button onclick="window.location.href='conteudos.html'">
+Conteúdos
+</button>
+
+</nav>
+
+
+
+
+<section class="formulario">
+
+
+<h2>
+Novo Cadastro 📝
+</h2>
+
+
+<p class="descricao">
+Preencha as informações abaixo para organizar um novo conteúdo educacional.
+</p>
+
+
+
+<form id="formCadastro">
+
+
+<label>
+Nome do conteúdo:
+</label>
+
+<input type="text" id="nome" placeholder="Digite o nome do conteúdo">
+
+
+<label>
+Tipo de conteúdo:
+</label>
+
+
+<select id="tipo">
+
+<option>Selecione</option>
+<option>Vídeo</option>
+<option>PDF</option>
+<option>Texto</option>
+<option>Apresentação</option>
+
+</select>
+
+
+
+<label>
+Disciplina:
+</label>
+
+<input type="text" id="disciplina" placeholder="Digite a disciplina">
+
+
+
+<label>
+Responsável:
+</label>
+
+<input type="text" id="responsavel" placeholder="Nome do responsável">
+
+
+
+<label>
+Data de publicação:
+</label>
+
+<input type="date" id="data">
+
+
+<button type="submit">
+Salvar conteúdo
+</button>
+
+
+
+</form>
+
+
+</section>
+
+
+
+<footer>
+
+Orbia © 2026
+
+</footer>
+
+
+
+<script src="../js/script.js"></script>
+
+
+</body>
+
+</html>
